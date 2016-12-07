@@ -10,8 +10,7 @@ using FruitDB.Data;
 using FruitDB.Models;
 
 namespace FruitDB.Controllers {
-	[Produces("application/json")]
-	[Route("api/Cart")]
+	[Produces("application/json"), Route("api/Cart")]
 	public class CartController : Controller {
 		private ConnectionMultiplexer Redis = ConnectionMultiplexer.Connect("localhost");
 		private IDatabase RedisDB => Redis.GetDatabase(db: 1);

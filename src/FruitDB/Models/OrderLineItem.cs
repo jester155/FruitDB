@@ -7,6 +7,7 @@ namespace FruitDB.Models
 {
     public class OrderLineItem : LineItem
     {
+		public OrderLineItem() : base() { }
 		public double Quantity { get; set; }
 	}
 }
