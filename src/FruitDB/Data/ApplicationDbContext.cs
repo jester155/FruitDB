@@ -15,6 +15,16 @@ namespace FruitDB.Data
         {
         }
 
+		public static ApplicationDbContext Create() {
+			return new ApplicationDbContext(new DbContextOptions<ApplicationDbContext>());
+		}
+
+		public virtual DbSet<Order> Orders { get; set; }
+
+		public virtual DbSet<LineItem> LineItems { get; set; }
+
+		public virtual DbSet<OrderLineItem> OrderLineItems { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

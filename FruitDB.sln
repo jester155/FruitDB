@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FruitDB", "src\FruitDB\FruitDB.xproj", "{A3A4ACBF-B1E2-43D3-A0CA-99DC2C662E98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FooBar", "FooBar\FooBar.csproj", "{8829BB34-22B1-4DF0-805B-91F949AA5916}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{A3A4ACBF-B1E2-43D3-A0CA-99DC2C662E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3A4ACBF-B1E2-43D3-A0CA-99DC2C662E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3A4ACBF-B1E2-43D3-A0CA-99DC2C662E98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8829BB34-22B1-4DF0-805B-91F949AA5916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8829BB34-22B1-4DF0-805B-91F949AA5916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8829BB34-22B1-4DF0-805B-91F949AA5916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8829BB34-22B1-4DF0-805B-91F949AA5916}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
